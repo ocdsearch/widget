@@ -6,13 +6,13 @@ npm i
 
 # USAGE #
 
-in <head>  
+in head  
 ``<link href='//fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">``  
 ``<link href="//ocdsearch.cf/build/css/app.css" rel="stylesheet">``  
 
 
-in <body>  
-``<ocdsearch api-key="123" id="ocdsearch" theme="dark" color=""></ocdsearch>``    
+in body
+``<ocdsearch api-key="123" id="ocdsearch" host="//ocdsearch.cf/search" theme="dark" color=""></ocdsearch>``    
 ``<script src="//ocdsearch.cf/build/js/app.js" id="ocdsearch-script" async></script>``  
 
 
@@ -23,3 +23,5 @@ in <body>
 
 https://vuetifyjs.com/style/colors  
 ``color="indigo"``  
+
+``host="//hostname"``
