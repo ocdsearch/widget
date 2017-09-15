@@ -1,0 +1,9 @@
+/public/build
+/public/search.php
+/resources/vendor
+/node_modules
+.DS_Store
+.env
+*.env
+.idea
+composer.lock
